@@ -1,4 +1,8 @@
 @media (max-width: 48em) {
+  .container-full {
+    padding: 0;
+  }
+
   .header-bg {
     height: auto;
   }
