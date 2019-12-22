@@ -1,0 +1,85 @@
+@media (max-width: 48em) {
+  .header-bg {
+    height: auto;
+  }
+
+  .header-photo {
+    height: auto;
+  }
+
+  .header-content {
+    transform: translateY(0%);
+    position: static;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 40px;
+    margin-top: 3rem;
+    margin-left: auto;
+  }
+
+  .header p {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: auto;
+  }
+
+  .social-icons {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-bottom: -1rem;
+  }
+
+  .projects {
+    padding-bottom: 0;
+  }
+
+  .project-decor-1::before {
+    height: 30px;
+    width: 30px;
+    top: 1rem;
+  }
+
+  .project-decor-1::after {
+    height: 15px;
+    width: 15px;
+  }
+
+  article h3 {
+    font-size: 25px;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+
+  .projects h2 {
+    margin-top: 0;
+    font-size: 40px !important;
+    margin-right: 2rem;
+    margin-left: 2rem
+  }
+
+  .project-content {
+    margin-bottom: 2rem;
+  }
+
+  .project-address {
+    margin-bottom: 1.5rem;
+  }
+
+  .project-left {
+    margin-top: 4rem;
+  }
+
+  .project-right .project-content {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .project-left .project-content {
+    margin-right: 0;
+    margin-top: 1rem;
+  }
+}
